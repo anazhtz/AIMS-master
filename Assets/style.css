@@ -1,0 +1,257 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0 20px;
+}
+
+p {
+    color: white;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* Navigation Heading Styles */
+.nav-heading p {
+    margin: 0; 
+    color: white; 
+    font-size: 9px;
+}
+
+/* Main Content Styles */
+.main-div {
+    display: flex;            
+    align-items: center;      
+    justify-content: center;   
+    margin: 20px;             
+}
+
+.main-div img {
+    max-width: 100%;         
+    height: auto;           
+}
+
+/* Text Container Styles */
+.text-container {
+    padding: 15px;              
+    border-radius: 8px;  
+}
+
+/* Heading and Icons Section */
+.heading-icons {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    margin-bottom: 15px;             
+}
+
+.heading {
+    font-size: 15px;            
+    font-weight: bold;          
+    margin: 0;                  
+}
+
+/* Social Icons Styles */
+.social-icons {
+    display: flex;
+    gap: 15px;                   
+}
+
+.social-icons img {
+    width: 40px;
+    height: 35px;
+    background-color: #CDBE78;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Enquiry Section Styles */
+.enquiry-section {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;             
+    border-radius: 8px;              
+    margin-bottom: 10px;             
+}
+
+/* Text Pair Styles */
+.text-pair {
+    display: flex;
+    gap: 20px; 
+}
+
+.text-pair p {
+    margin: 0;  
+    font-size: 16px;
+}
+
+
+/* Highlight Text Styles */
+.highlight-text {
+    background-color: #CDBE78;  
+    padding: 10px 15px;       
+    border-radius: 8px;      
+    color: #000;               
+    margin-bottom: 10px;      
+    display: inline-block;    
+}
+
+/* Text Color Styles */
+.text-color {
+    color: #CDBE78;  
+}
+
+.bg-custom {
+    background-color: #CDBE78; 
+}
+
+
+
+/* Welcome Section */
+.welcome-section {
+    padding: 20px;             
+    border-radius: 8px;        
+    margin: 20px 0;            
+}
+
+.welcome-content {
+    display: flex;             
+    justify-content: space-between; 
+    align-items: center;       
+}
+
+.left-part {
+    flex: 1;                  
+    padding-right: 20px;      
+}
+
+.welcome-heading {
+    color: #CDBE78;           
+    font-size: 24px;          
+    margin-bottom: 10px;      
+}
+
+.welcome-text {
+    color: white;             
+    font-size: 16px;          
+    margin-bottom: 20px;      
+}
+
+.welcome-actions {
+    display: flex;            
+    gap: 10px;               
+}
+
+.right-part {
+    flex: 1;                   
+}
+
+.welcome-image {
+    max-width: 100%;          
+    height: auto;             
+}
+
+/* Business Opportunity */
+.business-opportunity {
+    position: relative;  
+}
+
+.background-container {
+    position: relative; 
+}
+
+.background-image {
+    width: 100%;        
+    height: 50%;     
+}
+
+.content {
+    position: absolute;    
+    top: 10%;              
+    right: 20px;          
+    bottom: 20px;         
+    left: 20px; 
+    display: flex;       
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+h2.text-uppercase {
+    text-align: right;       
+    color: #CDBE78;       
+    margin: 10px 0;    
+    font-weight: 800;  
+}
+
+.logos-section {
+    margin-bottom: 20px;
+}
+
+.company-logos {
+    display: flex;                
+    flex-wrap: wrap;           
+    margin-bottom: 20px; 
+}
+
+.row-right {
+    display: flex;              
+    justify-content: flex-end;  
+    flex-basis: 100%;          
+}
+
+.row-left {
+    display: flex;             
+    justify-content: flex-start; 
+    flex-basis: 100%;         
+    margin-left: 140px;
+}
+
+.logo-wrapper {
+    background-color: white;    
+    padding: 10px;              
+    border-radius: 10px;       
+    margin: 10px 5px;             
+}
+
+.company-logo {
+    width: 162px;                
+    height: auto;                
+}
+
+.heading-section {
+    margin-bottom: 20px;
+}
+
+.description-section {
+    margin-bottom: 0px; 
+    margin-left: 140px;
+}
+
+.chairman-section {
+    align-self: flex-end; 
+    margin-bottom: 400px;
+}
+
+.chairman-details {
+    display: flex;            
+    align-items: center;    
+    margin-top: 40px;        
+}
+
+.chairman-pic {
+    width: 29%;              
+    height: auto;              
+    margin-right: 20px;    
+}
+
+.chairman-info {
+    max-width: 300px; 
+}
